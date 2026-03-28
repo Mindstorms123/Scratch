@@ -85,7 +85,7 @@ wenn [grüne Flagge] angeklickt
     
   ende
 ende
-
+'''
 ###🎮 Für gelbes Auto:
 Kopiere das obige Script und passe folgende Werte an:
 
