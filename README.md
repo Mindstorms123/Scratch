@@ -92,8 +92,8 @@ Kopiere das obige Script und passe folgende Werte an:
 
 | Element | Rot | Gelb |
 |---------|-----|------|
-| **Startposition X** | `-180` | `180` |
-| **Startposition Y** | `50` | `50` |
+| **Startposition X** | `-17` | `-22` |
+| **Startposition Y** | `-79` | `-105` |
 | **Taste Vorwärts** | `Pfeil oben` | `W` |
 | **Taste Rückwärts** | `Pfeil unten` | `S` |
 | **Taste Links drehen** | `Pfeil links` | `A` |
