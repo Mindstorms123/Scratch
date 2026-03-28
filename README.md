@@ -55,39 +55,49 @@ Beide Spieler steuern **gleichzeitig**:
 
 ### 🚗 Bewegungs-Logik für rotes Auto
 
+```scratch
 wenn [grüne Flagge] angeklickt
-gehe zu x: (-180) y: (50)
-setze Richtung auf (90) Grad
-
-wiederhole fortlaufend
-falls <Taste [Pfeil nach oben ▲] gedrückt?> dann
-gehe (3) er Schritt
+  gehe zu x: (-180) y: (50)
+  setze Richtung auf (90) Grad
+  
+  wiederhole fortlaufend
+    
+    falls <Taste [Pfeil nach oben ▲] gedrückt?> dann
+      gehe (3) er Schritt
+    ende
+    
+    falls <Taste [Pfeil nach unten ▼] gedrückt?> dann
+      gehe (-2) er Schritt
+    ende
+    
+    falls <Taste [Pfeil nach links ◀] gedrückt?> dann
+      drehe dich ↺ um (5) Grad
+    ende
+    
+    falls <Taste [Pfeil nach rechts ▶] gedrückt?> dann
+      drehe dich ↻ um (5) Grad
+    ende
+    
+    falls <wird [Ziellinie (gelb) v] berührt?> dann
+      sende [Rot gewinnt v] an alle
+      stoppe [alles v]
+    ende
+    
+  ende
 ende
 
+###🎮 Für gelbes Auto:
+Kopiere das obige Script und passe folgende Werte an:
 
-falls <Taste [Pfeil nach unten ▼] gedrückt?> dann
-  gehe (-2) er Schritt
-ende
-
-falls <Taste [Pfeil nach links ◀] gedrückt?> dann
-  drehe dich ↺ um (5) Grad
-ende
-
-falls <Taste [Pfeil nach rechts ▶] gedrückt?> dann
-  drehe dich ↻ um (5) Grad
-ende
-
-falls <wird [Ziellinie (gelb)] berührt?> dann
-  sende [Rot gewinnt v] an alle
-  stoppe [alles v]
-ende
-ende
-ende
-
-
-
-**Für gelbes Auto:** Passe die Startposition (z. B. `(180), (50)`) und Tasten (W, A, S, D) an.
-
+| Element | Rot | Gelb |
+|---------|-----|------|
+| **Startposition X** | `-180` | `180` |
+| **Startposition Y** | `50` | `50` |
+| **Taste Vorwärts** | `Pfeil oben` | `W` |
+| **Taste Rückwärts** | `Pfeil unten` | `S` |
+| **Taste Links drehen** | `Pfeil links` | `A` |
+| **Taste Rechts drehen** | `Pfeil rechts` | `D` |
+| **Gewinn-Nachricht** | `Rot gewinnt` | `Gelb gewinnt` |
 ---
 
 ### ⏱️ Timer-Logik
