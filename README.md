@@ -77,7 +77,7 @@ falls <Taste [Pfeil nach rechts ▶] gedrückt?> dann
   drehe dich ↻ um (5) Grad
 ende
 
-falls <wird [Zielflagge v] berührt?> dann
+falls <wird [Ziellinie (gelb)] berührt?> dann
   sende [Rot gewinnt v] an alle
   stoppe [alles v]
 ende
@@ -111,18 +111,7 @@ wechsle zum Kostüm [Rot gewinnt v]
 warte (3) Sekunden
 ende
 
-
-
 ---
-
-## 👨‍🏫 Für Lehrer & Schulungen
-
-| Aspekt | Details |
-|--------|---------|
-| 🎯 **Zielgruppe** | 5. Klasse (Einsteiger) |
-| ⏱️ **Dauer** | ~45 Minuten |
-| 🧠 **Lernziele** | Schleifen, Wenn-Dann-Bedingungen, Koordinatensystem, Kollisionsabfrage |
-| 📚 **Schwierigkeitsstufe** | Einfach bis Mittel |
 
 ### Mögliche Erweiterungen
 
