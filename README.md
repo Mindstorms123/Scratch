@@ -55,35 +55,35 @@ Beide Spieler steuern **gleichzeitig**:
 
 ### 🚗 Bewegungs-Logik für rotes Auto
 
+```scratch
 wenn [grüne Flagge] angeklickt
-gehe zu x: (-180) y: (50)
-setze Richtung auf (90) Grad
+  gehe zu x: (-180) y: (50)
+  setze Richtung auf (90) Grad
 
-wiederhole fortlaufend
-falls <Taste [Pfeil nach oben ▲] gedrückt?> dann
-gehe (3) er Schritt
-ende
+  wiederhole fortlaufend
+    falls <Taste [Pfeil nach oben ▲] gedrückt?> dann
+      gehe (3) er Schritt
+    ende
 
+    falls <Taste [Pfeil nach unten ▼] gedrückt?> dann
+      gehe (-2) er Schritt
+    ende
 
-falls <Taste [Pfeil nach unten ▼] gedrückt?> dann
-  gehe (-2) er Schritt
-ende
+    falls <Taste [Pfeil nach links ◀] gedrückt?> dann
+      drehe dich ↺ um (5) Grad
+    ende
 
-falls <Taste [Pfeil nach links ◀] gedrückt?> dann
-  drehe dich ↺ um (5) Grad
-ende
+    falls <Taste [Pfeil nach rechts ▶] gedrückt?> dann
+      drehe dich ↻ um (5) Grad
+    ende
 
-falls <Taste [Pfeil nach rechts ▶] gedrückt?> dann
-  drehe dich ↻ um (5) Grad
+    falls <wird [Ziellinie (gelb) v] berührt?> dann
+      sende [Rot gewinnt v] an alle
+      stoppe [alles v]
+    ende
+  ende
 ende
-
-falls <wird [Ziellinie (gelb) v] berührt?> dann
-  sende [Rot gewinnt v] an alle
-  stoppe [alles v]
-ende
-ende
-ende
-
+```
 
 
 ### 🎮 Für gelbes Auto:
