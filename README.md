@@ -135,7 +135,6 @@ Dieses Projekt steht unter der MIT-Lizenz. Du darfst es frei nutzen, modifiziere
 
 - [Scratch Editor](https://scratch.mit.edu)
 - [Scratch Dokumentation](https://scratch.mit.edu/info/faq)
-- [Diesterweg-Stipendium](https://www.diesterweg-stipendium.de)
 
 ---
 
