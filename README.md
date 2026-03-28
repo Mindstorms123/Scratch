@@ -104,6 +104,7 @@ Kopiere das obige Script und passe folgende Werte an:
 
 ### ⏱️ Timer-Logik
 
+```
 wenn [grüne Flagge] angeklickt
 stoppuhr zurücksetzen
 
@@ -111,18 +112,18 @@ wiederhole fortlaufend
 sage (runde [stoppuhr v])
 ende
 ende
-
+```
 
 
 ---
 
 ### 🏆 Gewinn-Anzeige
-
+```
 wenn ich [Rot gewinnt v] empfange
 wechsle zum Kostüm [Rot gewinnt v]
 warte (3) Sekunden
 ende
-
+```
 
 
 ---
